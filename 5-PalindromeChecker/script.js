@@ -13,9 +13,9 @@ function palindrome() {
     //end.split('').reverse().join('');
     let flip = [...end].reverse().join('');
     if(start == flip) {
-        result.innerHTML = `${word.toUpperCase()} is a palidrom`
+        result.innerHTML = `${word.toUpperCase()} is a palindrom`
     } else {
-        result.innerHTML = `${word.toUpperCase()} is NOT a palidrome`;
+        result.innerHTML = `${word.toUpperCase()} is NOT a palindrome`;
     }
     }
 
